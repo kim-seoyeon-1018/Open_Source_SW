@@ -16,7 +16,7 @@ imgSize = 300
 folder = "H2KE\Data\C" # 데이터 저장할 폴더 A, B, C로 매번 바꿔준 후 S 눌러서 폴더에 저장하는 방식
 counter = 0
 
-labels = ["A", "B", "C"]
+labels = ["A", "B", "C", "D", "E", "F"]
 
 while True:
     success, img = cap.read()
