@@ -1,4 +1,4 @@
-# H2KE (Hand Sign to ENG/KOR)
+# H2KE (Hand Sign to KOR/ENG)
 
 ## Markdown contents
 0. [README](./README.md) : 프로젝트 설명
