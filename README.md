@@ -5,6 +5,13 @@
 1. [Git Rules](./Git_Rules.md) : Git 관리 규칙 설정
 2. [History](./History.md) : commit history 작성
 
+## Plan Design
+
+> Lev 1.
+> H2E - 알파벳 수어 인식, Cmoplete.
+>> Lev 2.
+>> H2K - 한글 수어 인식, Continue.
+
 ## Structure
 프로젝트 파일 구조
 ```
