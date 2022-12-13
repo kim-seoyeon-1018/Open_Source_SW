@@ -10,7 +10,8 @@ detector = HandDetector(maxHands=1)
 offset = 20
 imgSize = 300
 
-
+folder = "H2KE\Data\A" # 데이터 저장할 폴더 A, B, C로 매번 바꿔준 후 S 눌러서 폴더에 저장하는 방식
+counter = 0
 
 while True:
     success, img = cap.read()
@@ -27,6 +28,10 @@ while True:
 
         aspectRatio = h / w
 
+
+
+        # 일정 사이즈를 넘어가면 에러가나서 웹캠이 멈춤 -> resize때문!
+        # 웹캠에서 조금 멀리 떨어져서 손 인식하는 것이 에러 안 남!
         if aspectRatio > 1:
             k = imgSize / h
             wCal = math.ceil(k * w)
@@ -47,3 +52,8 @@ while True:
         cv2.imshow("ImageWhite", imgWhite)
 
     cv2.imshow("Image", img)
+    key = cv2.waitKey(1)
+    if key == ord("s"):
+        counter += 1
+        cv2.imwrite(f'{folder}/Image_{time.time()}.jpg', imgWhite)
+        print(counter)
