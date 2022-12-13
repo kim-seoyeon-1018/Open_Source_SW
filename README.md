@@ -5,7 +5,16 @@
 > 전공을 살려 인공지능도 이용한 프로젝트를 진행하고자 하였습니다.  
 > 평소 ***Social Impact Project***에 관심이 많은 팀원들이었기에 자연스럽게 수어 인식기를 생각하게 되었습니다.  
 > 영어 수어 인식 기능은 많으나, 한국어 수어 인식 기능은 많이 없어 한국어 수어 인식기를 기획하고자 하였습니다.  
-> 하지만 난이도의 문제와 자료가 많이 없어 오롯이 저희의 힘으로는 구현하기 어렵다고 판단하여 영어 수어를 인식 후, 한국어로 번역해 주는 기능을 생각하게 되었습니다.  
+> 하지만 난이도의 문제와 자료가 많이 없어 오롯이 저희의 힘으로는 구현하기 어렵다고 판단하여 영어 수어를 인식 후, 한국어로 번역해 주는 기능을 생각하게 되었습니다.
+
+## :raising_hand: Team members & Task
+
+|Name|Task|
+|:---|:---|
+|[김서연](https://github.com/kim-seoyeon-1018)|Team Leader & Planning|
+|[심세원](https://github.com/ShimFFF)|Hand Recognition|
+|[조혜원](https://github.com/One-HyeWon)|Hand Sign Translation|
+|[최선규](https://github.com/luke0408)|Project Management & Issues Handling|
 
 ## :file_folder: Markdown contents
 0. [README](./README.md) : 프로젝트 설명
@@ -18,6 +27,8 @@
 > H2E - 알파벳 수어 인식, **Cmoplete**.
 >> Lev 2.
 >> H2K - 한글 수어 인식, **Continue**.
+>>> Lev 3.
+>>> H2KE - 모듈화, **Continue**
 
 ## :computer: Structure
 프로젝트 파일 구조
@@ -35,3 +46,6 @@ Open_Source_SW/H2KE
 | __init__.py // H2KE 모듈화
 | test.py // 모델 테스트 코드
 ```
+
+## :closed_book: Reference
+- https://www.youtube.com/watch?v=wa2ARoUUdU8
